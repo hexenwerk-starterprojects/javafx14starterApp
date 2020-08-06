@@ -26,3 +26,9 @@ If you run on Windows, follow these steps:
 To run the project:
     
     mvn clean javafx:run
+    
+### Intellij 
+
+If you run main class from Intellij Runner, set the following VM parameters
+
+    --module-path c:\tools\JavaFx\javafx-sdk-14.0.2.1\lib\ --add-modules javafx.controls
